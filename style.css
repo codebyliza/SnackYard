@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', 'Verdana', Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    background-color: #fdf4e3;
+    margin: 0;
+}
+
+header {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    height: 50vh;
+    min-height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 20px 20px 20px 20px;
+    border-radius: 10px;
+}
+
+header img {
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #c2833c;
+    background-color: #ffe5c4;
+    padding: 4px;
+  
+}
+.logo-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.brand-name {
+    color: #c2833c;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+main {
+    background-color: #000000;
+    margin: 20px 20px 20px 20px;
+    border-radius: 10px;
+    color: #ffffff;
+    padding: 0.5px 0;
+}
+
+.product-row {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    background-color:rgb(252, 193, 1);
+    color: #000000;
+    border-radius: 30px;
+    padding: 0.6rem 1.2rem 0.6rem 0.8rem;
+    margin: 20px 20px 20px 20px;
+}
+.product-info {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.3rem 0.8rem;
+}
+
+.product-title {
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: #000000;
+    letter-spacing: -0.2px;
+    min-width: 110px;
+}
+.product-flavor {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.3rem 0.6rem;
+    background: #f8e5d0;
+    padding: 0.2rem 0.9rem 0.2rem 0.7rem;
+    border-radius: 40px;
+    color: #3f2d1c;
+}
+.product-price {
+    color: #2d1f0f;
+    background: #f8e5d0;
+    padding: 0.1rem 0.8rem;
+    border-radius: 20px;
+}
+
+.product-image {
+    border-radius: 50%;
+        object-fit: cover;
+        border: 3px solid #c2833c;
+        background-color: #ffe5c4;
+        padding: 4px;
+}
+
+button,
+.add-to-cart-button {
+    color: #ffffff;
+    background: #000000;
+    padding: 0.3rem 1.2rem;
+    border: none;
+     margin-left: auto;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+}
+
+button:hover,
+.add-to-cart-button:hover {
+    background: #c2833c;
+    transform: scale(1.02);
+}
+
+footer {
+    padding: 1.2rem 2rem;
+    align-items: center;
+    background-color: #000000;
+    margin: 20px 20px 20px 20px;
+    border-radius: 10px;
+    color: #ffffff;
+}
+footer p {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+}
