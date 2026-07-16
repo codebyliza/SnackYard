@@ -135,3 +135,50 @@ footer p {
     text-align: center;
     margin: 0;
 }
+@media screen and (max-width: 768px) {
+    header {
+        height: auto;
+        min-height: 250px;
+        padding: 20px;
+        margin: 10px;
+    }
+
+    .brand-name {
+        font-size: 1.5rem;
+    }
+    main {
+        margin: 10px;
+    }
+    .product-row {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px 15px;
+        margin: 15px 10px;
+    }
+
+    .product-image {
+        height: 120px;
+        width: 120px;
+        margin-bottom: 10px;
+    }
+
+    .product-info {
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .product-title {
+        font-size: 1.1rem;
+        min-width: auto;
+    }
+
+    .add-to-cart-button {
+        margin-left: 0;
+        padding: 8px 30px;
+    }
+    footer {
+        margin: 10px;
+        padding: 15px;
+    }
+}
