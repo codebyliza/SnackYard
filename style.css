@@ -15,7 +15,7 @@ header {
     background-color: #000000;
     color: #ffffff;
     text-align: center;
-    height: 50vh;
+    height: 40vh;
     min-height: 380px;
     display: flex;
     flex-direction: column;
