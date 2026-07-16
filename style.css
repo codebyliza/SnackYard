@@ -43,17 +43,6 @@ header img {
     font-weight: 700;
     letter-spacing: 1px;
 }
-.logo-box p{
-    font-size: 1.4rem;
-    font-family: 'Cormorant Garamond', serif;
-    font-style: italic;
-    color: rgb(0, 0, 0);
-    background: rgb(252, 193, 1);
-    padding: 0.6rem 1.8rem;
-    border-radius: 60px;
-    display: inline-block;
-    font-weight: 400;
-}
 main {
     background-color: #000000;
     margin: 20px 20px 20px 20px;
@@ -145,50 +134,4 @@ footer p {
     text-align: center;
     margin: 0;
 }
-@media screen and (max-width: 768px) {
-    header {
-        height: auto;
-        min-height: 250px;
-        padding: 20px;
-        margin: 10px;
-    }
 
-    .brand-name {
-        font-size: 1.5rem;
-    }
-    main {
-        margin: 10px;
-    }
-    .product-row {
-        flex-direction: row;
-        text-align: center;
-        padding: 20px 15px;
-        margin: 15px 10px;
-    }
-
-    .product-image {
-        height: 150px;
-        width: 150px;
-        margin-bottom: 10px;
-    }
-
-    .product-info {
-        flex-direction: column;
-        align-items: center;
-        gap: 8px;
-    }
-
-    .product-title {
-        font-size: 1.1rem;
-        min-width: auto;
-    }
-
-    .add-to-cart-button {
-        margin-left: 0;
-        padding: 8px 30px;
-    }
-    footer {
-        margin: 10px;
-        padding: 15px;
-    }
-}
