@@ -160,15 +160,15 @@ footer p {
         margin: 10px;
     }
     .product-row {
-        flex-direction: column;
+        flex-direction: row;
         text-align: center;
         padding: 20px 15px;
         margin: 15px 10px;
     }
 
     .product-image {
-        height: 120px;
-        width: 120px;
+        height: 150px;
+        width: 150px;
         margin-bottom: 10px;
     }
 
